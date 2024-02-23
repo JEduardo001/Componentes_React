@@ -1,0 +1,86 @@
+body{
+  background-color:   #4c5360;
+
+}
+
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+.logo-container img {
+  width: 50px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.logo-container p {
+  font-size: 20px;
+}
+
+
+.search-container p {
+  margin-right: 10px;
+}
+
+.search-container input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.search-container button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.logo-container, .search-container {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+}
+
+.search-container{
+  margin-left: center;
+}
+
+
+
+.productos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+
+
+.producto {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 40px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+
+
+.agregar-carrito {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
